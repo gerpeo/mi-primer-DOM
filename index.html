@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Mi primer todo app con DOM</title>
+        <link rel="stylesheet" href="./assets/todoapp.css"> 
+    </head>
+    <body>
+        <div class="titulo">
+            <h1>Todo APP</h1></div><hr>
+        <div class="container">
+            <h3 class="subtitulo">Digite las tareas a realizar</h3> 
+            <input type="text" id="taskInput" placeholder="Agregar nueva tarea"/><br><br>
+            <button type="button" class="boton" onclick="addTask()">Agregar</button>
+            <button type="button" class="boton" onclick="deltask()">Eliminar</button>
+            <ul id="taskList">
+            </ul>
+        </div>
+        <script src="./assets/js/todoapp.js">
+        </script>  
+    <footer class="footer"><h5>Todos los derechos reservados por el autor &copy; gerpeo@gmail.com</h5>       
+	</footer>
+    </body>
+</html>
